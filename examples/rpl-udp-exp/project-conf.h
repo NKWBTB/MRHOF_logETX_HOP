@@ -1,0 +1,18 @@
+// #define LOG_CONF_LEVEL_RPL          LOG_LEVEL_INFO
+
+#define RPL_CONF_WITH_STORING       0
+#define RPL_CONF_WITH_NON_STORING   0
+#define RPL_CONF_MOP                RPL_MOP_NO_DOWNWARD_ROUTES
+
+// #define RPL_CONF_OF_OCP             RPL_OCP_OF0
+
+#define RPL_CONF_WITH_MC            1
+#define RPL_CONF_DAG_MC             RPL_DAG_MC_ETX 
+
+// #define RPL_MRHOF_CONF_SQUARED_ETX  1
+
+#define RPL_MRHOF_LOGARITHM_ETX     1
+#define RPL_MRHOF_RANK_THRESHOLD    128
+#define RPL_MRHOF_HOP_WEIGHT        0
+#define RPL_MRHOF_LOGETX_WEIGHT     1
+// // #define RPL_MRHOF_MULTIPLICATIVE_ETX 1
